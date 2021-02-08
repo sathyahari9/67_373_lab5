@@ -34,6 +34,28 @@
   },
   "Unit Tests": {
     "coverage": {
+      "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/task.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        3,
+        2,
+        null
+      ],
+      "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/chore.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
       "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/child.rb": [
         1,
         1,
@@ -42,17 +64,12 @@
         1,
         null,
         null,
-        3,
-        2,
+        1,
+        1,
         null,
         1,
-        3,
+        0,
         null,
-        null
-      ],
-      "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/application_record.rb": [
-        1,
-        1,
         null
       ],
       "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/controllers/application_controller.rb": [
@@ -305,16 +322,8 @@
       "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/helpers/tasks_helper.rb": [
         0,
         0
-      ],
-      "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/chore.rb": [
-        0,
-        0
-      ],
-      "/mnt/c/users/14127/Documents/s20/67272/lab5-choretracker-starter-master/lab5-choretracker-starter-master/app/models/task.rb": [
-        0,
-        0
       ]
     },
-    "timestamp": 1612772530
+    "timestamp": 1612757885
   }
 }
