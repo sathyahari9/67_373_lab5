@@ -10,10 +10,14 @@ class ChildTest < ActiveSupport::TestCase
   context "Creating a child context" do
     setup do
       create_children
+      create_tasks
+      create_chores
     end
  
     teardown do
       destroy_children
+      destroy_tasks
+      destroy_chores
     end
  
     should "have name methods that list first_ and last_names combined" do
@@ -28,6 +32,10 @@ class ChildTest < ActiveSupport::TestCase
  
     should "have a scope to select only active children" do
       assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
+    end
+
+    should "have the right number of points" do
+      assert_equal 1, @mark.points_earned
     end
   end
 end
